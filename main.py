@@ -77,3 +77,16 @@ class  SebulbasPod(Podracer):
 
     def flame_jet (self, other):  
      other.condition = "trashed"
+
+# How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
+# Encapsulation
+# It is encapsulated becaause it has several classes and methods which are essentially inside the Podracer class or using the pod
+
+# Abstraction
+# I don't believe this solution demonstrates abstraction. It does not use the @abstract method.
+
+# Inheritance
+# It definitely uses inheritance since the different methods are using basically the parent class of Podracer and its methods.
+
+# Polymorphism
+# Yes it uses polymorphism if I am understanding it correctly. Several classes are created and use each other . Although maybe if a for loop was used it would be cleares to me.
